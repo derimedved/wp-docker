@@ -15,7 +15,6 @@ services:
   wordpress:
     build: .
     container_name: wp_app
-
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wp
