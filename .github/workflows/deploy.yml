@@ -18,7 +18,7 @@ jobs:
           key: ${{ vars.SSH_PRIVATE_KEY }}
           script: |
             if [ ! -d "${{ vars.SERVER_PATH }}/.git" ]; then
-              git clone git@github.com:USERNAME/wp-docker.git ${{ vars.SERVER_PATH }}
+              git clone git@github.com:derimedved/wp-docker.git ${{ vars.SERVER_PATH }}
             fi
  
             cd ${{ vars.SERVER_PATH }}
